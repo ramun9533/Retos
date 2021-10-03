@@ -37,3 +37,12 @@
   .historia{
     display:block;
   }
+  .cambios {
+    font-size: 14px;
+    background-color: #2d6a4f;
+    list-style: none;
+    width:100px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 25px;
+  }
