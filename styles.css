@@ -34,8 +34,27 @@
     border-radius: 25px;
     overflow-y: scroll;
   }
-  .historia{
-    display:block;
+  .historial{
+    position: relative;
+    margin:0;
+    padding:20px;
+    background: color #222;
+    width:340px;
+    height:500px;
+    border-radius: 25px;
+  }
+  #resultado_h{
+    background: color #ff00ff;
+    display: scroll;
+    text-align: right;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width:300px;
+    height: 500px;
+    line-height: 100px;
+    border-radius: 25px;
+    overflow-y: scroll;
+    float: right;
   }
   .cambios {
     font-size: 14px;
