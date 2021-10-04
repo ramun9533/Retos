@@ -6,6 +6,9 @@
 <link type="text/css" href="styles.css" rel="stylesheet">
 </head>
 <body onload="init();">
+  <header>
+  </header>
+ 
 <table class="calculadora">
 <tr>
   <td colspan="4"><span id="resultado"></span></td> <!--colspan espara definir las columnas, en este caso son 4-->
@@ -22,13 +25,12 @@
 <tr>
 <td><button id="igual">=</button></td><td><button id="reset">C</button></td><td><button id="cero">0</button></td><td><button id="suma">+</button></td>
 </tr>
-<tr >Historial
-    <div class="historial">
-        <span id="historial"></span>
-        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
-    </div>
-</tr>
+
 </table>
+<div class="historial"> historial
+  <div  ><span id="resultado_h">-</span><span/div>
+<!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+</div>
 <nav >
 <button class="cambios">Cambio de posicion</button>
 <button class="cambios">Numero Aleatorio</button>
