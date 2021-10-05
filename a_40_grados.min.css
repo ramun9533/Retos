@@ -1,0 +1,117 @@
+
+scroll-container {
+ margin: 10px;
+  text-align: center;
+
+  display: block;
+  width: top;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+header h1
+{
+  padding: 0px;
+  text-align: center;
+  height: 20px;
+}
+/*a li img
+{
+}*/
+/*img
+{
+  width: 80px;
+  height: 100px;
+}*/
+#titulo{
+  float: center;
+    position: relative;
+    top: -20px;
+    left: -10px;
+    padding: 10px;
+}
+.carrito
+{
+    float: right;
+    position: relative;
+    top: -100px;
+    left: 0px;
+    /*background: blue;*/
+}
+
+header div a img
+{
+  align: left;
+  height: 80px;
+  width: 60;
+}
+
+header
+{
+  
+  margin: 10px;
+  /* height: 200px; */
+}
+
+scroll-container  table img
+{
+  width: 250px;
+  height: 300px;
+  
+
+}
+.logo
+{
+
+  align: left;
+  height: 20px;
+  width: 60;
+}
+.buscador 
+{
+  align: center;
+  height: 50px;
+  width: 500;
+
+  /*position: float;*/
+  padding: 10px;
+
+}
+.buscador input{
+  margin: 0px 10px 10px 80px;
+  float: center;
+  box-shadow:5px 5px 10px inset;
+    width: 1000px;
+    height: 40px;
+    padding: 0px;
+    fron-size: 22px;
+    outline: none;
+    border-radius: 30px;
+    text-align: center; 
+}
+.btn{
+  overflow-y: visible;
+  position:absolute;
+  top: 0;
+  right: 0;
+  background-color: #5a189a;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  text-align: center;
+  /*background: #CCCCCC url("img/lupa.png") repeat-x;*/
+text-align: center;
+color: #CCCCCC;
+
+}
+
+.lupa 
+{
+  margin: 0px 0px 0px 20px;
+  padding: 0px 0px 0px 20px;
+  align: right;
+  height: 30px;
+overflow: visible;
+  position:center;
+  }
+  
